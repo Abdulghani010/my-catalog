@@ -1,17 +1,90 @@
 [
   {
-    "name": "برجر لحم مشوي",
-    "description": "برجر لحم أصلي مع الجبن والخضار الطازجة",
-    "price": "120",
-    "sizes": "صغير: 120 ج.م | كبير: 160 ج.م",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+    "category": "فراخ السلام",
+    "name": "فراخ شواية",
+    "description": "فراخ مشوية على الطريقة الكلاسيكية",
+    "sizes": "فرخة: 360 ج.م | نص: 180 ج.م | ربع: 90 ج.م",
+    "price": "360",
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=500"
   },
   {
-    "name": "بيتزا تشيز لورفرز",
-    "description": "مزيج جبن موتزاريلا وشيدر ساخن",
+    "category": "فراخ السلام",
+    "name": "فراخ مشوية على الفحم",
+    "description": "فراخ طازجة مشوية على الفحم بأكهل التتبيلات",
+    "sizes": "فرخة: 360 ج.م | نص: 180 ج.م | ربع: 90 ج.م",
+    "price": "360",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500"
+  },
+  {
+    "category": "فراخ السلام",
+    "name": "فراخ شيش / شيش طاووق",
+    "description": "سيخ شيش طاووق مخل ومرتب",
+    "sizes": "فرخة: 460 ج.م | نص: 230 ج.م | ربع: 110 ج.م",
+    "price": "460",
+    "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?w=500"
+  },
+  {
+    "category": "كريب السلام",
+    "name": "كريب بطاطس",
+    "description": "كريب محشو بطاطس مقرمشة",
+    "sizes": "قياسي",
+    "price": "70",
+    "image": "https://images.unsplash.com/photo-1551782450-17144efb9c50?w=500"
+  },
+  {
+    "category": "كريب السلام",
+    "name": "كريب زنگر",
+    "description": "قطع دجاج زنجر حارة مقرمشة مع الصوص",
+    "sizes": "قياسي",
+    "price": "110",
+    "image": "https://images.unsplash.com/photo-1626803775151-61d756612f97?w=500"
+  },
+  {
+    "category": "شاورما السلام",
+    "name": "فتة شاورما فراخ",
+    "description": "شاورما فراخ + بسمتي + بطاطس + مخلل + ثومية",
+    "sizes": "قياسي",
+    "price": "100",
+    "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=500"
+  },
+  {
+    "category": "سندوتش السلام",
+    "name": "سندوتش شاورما فراخ",
+    "description": "بلدي / فينو / صاج",
+    "sizes": "صغير: 90 ج.م | وسط: 100 ج.م | كبير: 80 ج.م",
     "price": "90",
-    "sizes": "وسط: 90 ج.م | عائلية: 140 ج.م",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500"
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500"
+  },
+  {
+    "category": "وجبات السلام",
+    "name": "وجبة فراخ مع أرز",
+    "description": "ربع فراخ شيش أو تكا + أرز بشعرية وعيش وطحينة ومخلل",
+    "sizes": "قياسي",
+    "price": "120",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500"
+  },
+  {
+    "category": "مكرونات السلام",
+    "name": "مكرونة بالفراخ",
+    "description": "مكرونة بصوص الطماطم أو الأبيض مع قطع الفراخ",
+    "sizes": "قياسي",
+    "price": "60",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281297?w=500"
+  },
+  {
+    "category": "مشروبات",
+    "name": "مياه معدنية صغير",
+    "description": "زجاجة مياه نقية",
+    "sizes": "صغير",
+    "price": "10",
+    "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4c?w=500"
+  },
+  {
+    "category": "إضافات",
+    "name": "موتزاريلا",
+    "description": "إضافة جبنة موتزاريلا إضافية",
+    "sizes": "إضافي",
+    "price": "20",
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500"
   }
 ]
-
