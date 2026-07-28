@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // ضع هنا رابط الـ Raw لملف data.json الخاص بك
+https://raw.githubusercontent.com/Abdulghani010/my-catalog/refs/heads/main/data.json
     const jsonUrl = "https://raw.githubusercontent.com/Abdulghani010/my-catalog/main/data.json";
 
     const menuContainer = document.getElementById("menu-container");
