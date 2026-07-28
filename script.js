@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-https://raw.githubusercontent.com/Abdulghani010/my-catalog/refs/heads/main/data.json    const jsonUrl = "رابط_الـ_Raw_الخاص_بـ_ملف_data.json";
+    // ضع هنا رابط الـ Raw لملف data.json الخاص بك
+    const jsonUrl = "https://raw.githubusercontent.com/Abdulghani010/my-catalog/main/data.json";
 
     const menuContainer = document.getElementById("menu-container");
 
@@ -11,9 +12,8 @@ https://raw.githubusercontent.com/Abdulghani010/my-catalog/refs/heads/main/data.
             return response.json();
         })
         .then(data => {
-            menuContainer.innerHTML = ""; // تفريغ الحاوية قبل العرض
+            menuContainer.innerHTML = ""; 
             
-            // افترضنا أن الـ JSON يحتوي على مصفوفة باسم items أو يمثل مصفوفة مباشرة
             data.forEach(item => {
                 const card = document.createElement("div");
                 card.classList.add("menu-card");
@@ -23,6 +23,7 @@ https://raw.githubusercontent.com/Abdulghani010/my-catalog/refs/heads/main/data.
                     <div class="card-content">
                         <h3>${item.name}</h3>
                         <p>${item.description}</p>
+                        <p style="color: #2980b9; font-size: 0.9rem; margin-bottom: 0.5rem; font-weight: bold;">${item.sizes || ''}</p>
                         <div class="price">${item.price} ج.م</div>
                     </div>
                 `;
